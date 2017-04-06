@@ -3,9 +3,9 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
-email:
-description: A simple and awesome blog theme powered by jekyll.
+title: Jonathan Munene
+email: munenegicovi@gmail.com
+description: Data Scientist - Analytics/R/Tableau/XLSForms/SurveyToGo.
 url: # the base hostname & protocol for your site
 
 
@@ -14,7 +14,7 @@ url: # the base hostname & protocol for your site
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          Africa/Kenya
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -33,13 +33,13 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
-  email:
+  name: Jonathan Munene
+  avatar: jmunene.jpg
+  job: "Data Scientist"
+  bio: "Lead Consultant - SwissPeaks East Africa [R, Shiny, Tableau, XLSForms, Stata, ODK, SurveyToGo, Data Science & Machine Learning]."
+  email: munenegicovi@gmail.com
   disqus-shortname:
-  twitter: #username
+  twitter: mgicovi
   facebook: #username
   google:
     plus: #username
@@ -48,11 +48,11 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: jmunene
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
-  skype: #username
+  skype: mgicovi
   xing: #username
   instagram: #username
   lastfm: #username
