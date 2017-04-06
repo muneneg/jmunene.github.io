@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Improving performance of your XLSForm"
-excerpt: "Expert advice on how to improve performance on your XLSForms. You might be able to improve the performance of your form by altering some aspects of its design. To begin with, it's helpful to understand the two key reasons why users might encounter sluggishness when filling out a form:
-Memory."
+excerpt: "Expert advice on how to improve performance on your XLSForms. You might be able to improve the performance of your form by altering some 
+aspects of its design. To begin with, it's helpful to understand the two key reasons why users might encounter sluggishness when filling out a form."
 categories: [XLSForms]
 link: 
 share: true
