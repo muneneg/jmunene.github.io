@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "XLSForms Authoring Tips and Tricks"
-excerpt: "Expert advice on how to author XLSForms.Have you ever wondered how what a good XLSForm looks like, then this should help you author one of them"
+excerpt: "Expert advice on how to author XLSForms.Have you ever wondered what a good XLSForm looks like, then this guide should help you author one of them"
 categories: [XLSForms]
 link: 
 share: true
