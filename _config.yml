@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Jonathan Munene
+title: Jmunene
 email: munenegicovi@gmail.com
 description: Data Scientist - Analytics/R/Tableau/XLSForms/SurveyToGo.
 url: # the base hostname & protocol for your site
@@ -36,13 +36,13 @@ owner:
   name: Jonathan Munene
   avatar: jmunene.jpg
   job: "Data Scientist"
-  bio: "Lead Consultant - SwissPeaks East Africa [R, Shiny, Tableau, XLSForms, Stata, ODK, SurveyToGo, Data Science & Machine Learning]."
+  bio: "Lead Consultant - SwissPeaks East Africa [R, Shiny, Tableau, XLSForms, Stata,SPSS, ODK, SurveyToGo, Data Science & Machine Learning]."
   email: munenegicovi@gmail.com
   disqus-shortname:
   twitter: mgicovi
-  facebook: #username
+  facebook: munene.gicovi
   google:
-    plus: #username
+    plus: https://plus.google.com/u/0/117400962805501248258
     analytics:
     verify:
     ad-client:
@@ -51,8 +51,8 @@ owner:
   github: jmunene
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
-  skype: mgicovi
+  linkedin: jonathan-munene-a46bb924
+  skype: muneneg
   xing: #username
   instagram: #username
   lastfm: #username
