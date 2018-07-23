@@ -5,7 +5,7 @@
 #
 title: Jmunene
 email: munenegicovi@gmail.com
-description: Data Scientist - Analytics/R/Tableau/XLSForms/SurveyToGo.
+description: Data Engineer - Analytics/R/Tableau/XLSForms/SurveyToGo.
 url: # the base hostname & protocol for your site
 
 
@@ -35,7 +35,7 @@ kramdown:
 owner:
   name: Jonathan Munene
   avatar: jmunene.jpg
-  job: "Data Scientist"
+  job: "Data Engineer"
   bio: "Lead Consultant - SwissPeaks East Africa [R, Shiny, Tableau, XLSForms, Stata,SPSS, ODK, SurveyToGo, Data Science & Machine Learning]."
   email: munenegicovi@gmail.com
   disqus-shortname:

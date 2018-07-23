@@ -1,4 +1,27 @@
-- name: leonids
-  descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
-  image: pong.png
-  github: https://github.com/renyuanz/leonids
+- name:  SwissPeaks PLC - Various Projects
+  descr: "onathan has been working as a data managemet consultant with Africa Now, a Market and Social research agency across all their
+  projects. He has been in charge of survey scripting in SurveyToGo (STG), field data collection monitoring system in R/Shiny and 
+  data cleaning. Jonathan is also tasked with running frequency tables in Merlin, creating codebooks and general data tasks in SPSS and
+  R."
+  
+- name:  GSN - Kumekucha Surveys/ Various Projects
+  descr: "Jonathan is the lead data analysis consultant for Green String Network (GSN). Jonathan is tasked with authoring XLSForms,
+  create monitoring and reporting tools in R/Shiny and generation of reporting tables using QPSMR/SPSS. He has created codebooks and
+  data archiving databases for the various projects carried out by GSN."
+
+- name: ILRI - Greening Livestock Project
+  descr: "Jonathan helped ILRI (Sustainable Livestock Systems), carry out their Greening Livestock Project wave 1 and wave 2 carried out
+  in Kenya (Nandi, Bomet and Murang'a Counties) and Tanzania (Morogoro, Iringa, Mbeya and Njombe Regions). Main tasks were authoring 
+  the digital questionnaire, hosting the data, monitoring data collection and periodically sending out reports as well as helping in
+  checking the quality of collected data via scripts in R/ SPSS and Stata. After data collection, Jonathan provided data collation,
+  merging and cleaning using R and Stata scripts for easy tracking of changes."
+ 
+- name:  Africa Now - Various Projects
+  descr: "Jonathan has been working as a data managemet consultant with Africa Now, a Market and Social research agency across all their
+  projects. He has been in charge of survey scripting in SurveyToGo (STG), field data collection monitoring system in R/Shiny and 
+  data cleaning."
+
+- name:  ASI - Kenya Randomized Rural Household Survey
+  descr: "Jonathan worked as a data analyst/ GIS expert in supporting ASI/Tanager (ACDI/VOCA) monitor the quality of data collected
+  on their Kenya Randomized Rural Household Survey carried out in 14 Counties across Kenya. Main task was mapping data collection points,
+  periodic data quality reports and review of submitted reports."
