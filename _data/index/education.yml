@@ -1,8 +1,14 @@
-- name: Massachusets Instutite of Technology
-  link: http://web.mit.edu/
-  date: 2011 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  descr: <br> (expected graduation in 2019)
+- name: Online training
+  link: https://www.datacamp.com/
+  date: 2016 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  descr: Data Science in R and Python
 
-- name: Harvard
-  link: http://www.harvard.edu/
-  date: 2007 - 2011
+- name: Capital Computer College
+  #link: https://www.datacamp.com/
+  date: 2005 - 2007
+  descr: -	Higher Diploma in IT & N+, Networking Fundamentals Certification | -	A+, Computer Repair & Maintenance Certification.
+
+- name: Other Profession trainings
+  #link: http://www.harvard.edu/
+  date: 2007 - 2010
+  descr: Data Analysis using SPSS and Stata | Fundamentals of M&E 
