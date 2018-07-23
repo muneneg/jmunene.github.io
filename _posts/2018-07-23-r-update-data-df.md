@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to update fields in a DF"
+title:  "How to update fields in a dataframe in R"
 date:   2018-07-23 18:33:19
 categories: [R]
 comments: false
@@ -27,14 +27,17 @@ require(data.table)
 
 #Load the libraries
 library(data.table)  
+~~~
 
-
-> We can using `join` from `data.table`. Convert the `data.frame` to `data.table` (setDT(df1), `join` on with `df1` using "key" and assign `(:=)`, the values in `var100`,`var202` and `var347 with `i.var100`, `i.var202` and `i.var347`.
+> We can using `join` from `data.table`. Convert the `data.frame` to `data.table` (setDT(dfA), `join` on with `dfA` using "key" and assign 
+`(:=)`, the values in `var100`,`var202` and `var347 with `i.var100`, `i.var202` and `i.var347`.
 
 Just run the following code
 
+~~~
 setDT(dfA)[dfB, c('var100', 'var202','var347') := .(i.var100, i.var202,i.var347), on = "key"]
+~~~
 
 If you now 'View(dfA)`, the data will be updated.
-~~~
+
 
