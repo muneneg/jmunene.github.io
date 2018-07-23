@@ -29,8 +29,8 @@ require(data.table)
 library(data.table)  
 ~~~
 
-> We can using `join` from `data.table`. Convert the `data.frame` to `data.table` (setDT(dfA), `join` on with `dfA` using "key" and assign 
-`(:=)`, the values in `var100`,`var202` and `var347 with `i.var100`, `i.var202` and `i.var347`.
+We wiil now use `join` from `data.table`. Convert the "data.frame" to "data.table" `(setDT(dfA)`, `join` on with `dfA` using "key" and assign 
+`(:=)`, the values in `var100`,`var202` and `var347` with `i.var100`, `i.var202` and `i.var347`.
 
 Just run the following code
 
@@ -38,6 +38,6 @@ Just run the following code
 setDT(dfA)[dfB, c('var100', 'var202','var347') := .(i.var100, i.var202,i.var347), on = "key"]
 ~~~
 
-If you now 'View(dfA)`, the data will be updated.
+If you now `View(dfA)`, the data will be updated.
 
 
