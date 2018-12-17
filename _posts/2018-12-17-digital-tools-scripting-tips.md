@@ -22,6 +22,7 @@ It is always useful to start with a paper questionnaire. Once you have scripted 
 7. Script in ONE language first, once the tool has been tested, you can now go ahead and add the translations.
 8. Write the questions in a way that is easily read and understood.
 9. Break up the large repeat groups or questions with long choice lists into smaller ones.
+10. Test smaller bits of your script as you keep building up.
 
 **Test the questionnaire**
 
