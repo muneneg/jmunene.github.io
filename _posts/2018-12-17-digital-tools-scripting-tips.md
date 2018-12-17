@@ -1,17 +1,35 @@
 ---
 layout: post
-title:  "How to filter rows in Excel that have count greater than 1"
-date:   2018-12-14 13:58:19
-categories: [Excel]
+title:  "Digital questionnaires scripting pro tips"
+date:   2018-12-17 09:58:19
+categories: [XLSForms,ODK,SurveyToGo,SurveyCTO]
 comments: false
 ---
-The Problem;
+When working on evaluations of development projects,Market Research data or any other form of data collection, it is extremely important to get high quality data from the point of collection, which is made possible by scripting the tools right.
 
-> Assuming I have an excel workbook of some thousand rows, which has a unique ID column and would like to filter out rows where the ID has been duplicated and show how many times each ID is appearing.. To achieve this;
+**Start with a paper questionnaire**
 
-- At the end of my file, I'll a column named `count`.
-- Assuming my ID column is column `B`, I'll add this formula to my `Count` column and drag down. ```=COUNTIF($B$2:$B$28,B2)```. Make sure you edit the size of you file, i.e. rows, mine is upto 28.
-- Each row will now have a value of the number of times the ID value has been repeated, under the Count column.
-- I can now use the normal filter and select all values greater than 1.
+It is always useful to start with a paper questionnaire. Once you have scripted (or programmed) a relatively final draft of your paper questionnaire, you can make modifications directly on the script and it is advisable to make changes in the paper questionnaire simultaneously, or make notes of your changes.
 
+**Quick Scripting tips**
+
+1. Create pre-coded options or a finite range of responses wherever possible.
+2. If you plan to use *Stata/SPSS, keep your field names lowercase and 32 characters or shorter.
+3. Create checks and balances—like prompts that help guard against illogical responses—in the questionnaire wherever possible.
+4. Think through how you want your data to look (sometimes sketching it out can help) and then work backwards.
+5. Avoid overlaping repeat groups. Make sure that the groups are completely encased within one another.
+6. When writing long complicated code like constraint, relevance, it is easier to first write the code using a text editor (I like Notepad++), and then copy it to Excel, or scripting studio.
+7. Script in ONE language first, once the tool has been tested, you can now go ahead and add the translations.
+8. Write the questions in a way that is easily read and understood.
+9. Break up the large repeat groups or questions with long choice lists into smaller ones.
+
+**Test the questionnaire**
+
+- Always test your questionnaire before training or roll out for data collection to make sure it works without errors. 
+- Don’t rely only on the “Preview” function of your scripting system; also, try it out on the tablet/phone you will be using in the field-NOTE "USING IN FIELD" Some of the tablets/phones used by scripters for testing might be more advanced or have bigger screens than the actual ones.
+- In addition to making sure that the questionnaire runs smoothly, export the data and look through it to make sure that your data is in the format you want it in.
+- Enumerators are also good script testers.
+- Finally use real world respondents to test the questionnaire.
+
+*While this may seem like a lot of work, it is always beneficial when the same person who scripts the questionnaire also trains the enumerators and cleans the data. This way, the data is in a format you are comfortable working in, and if the data are a mess you only have yourself to blame!*
 
